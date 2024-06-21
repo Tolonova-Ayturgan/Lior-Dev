@@ -12,7 +12,7 @@ const Comments = async () => {
       {data && <CommentsList data={data} />}
       <div className="comments__circle"></div>
     </section>
-  )
+   )
 }
 
 export default Comments

@@ -16,6 +16,7 @@
     line-height: 121%;
     text-transform: uppercase;
     color: $secondary-color-1;
+    font-family: 'Source Sans Pro', sans-serif;
     @media screen and (max-width: 480px) {
       font-size: 20px;
       margin: 0;
@@ -23,7 +24,7 @@
   }
   p {
     max-width: 1030px;
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
     font-weight: 400;
     font-size: 18px;
     line-height: 148%;

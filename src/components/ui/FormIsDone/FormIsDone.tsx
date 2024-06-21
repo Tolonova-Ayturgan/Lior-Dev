@@ -1,5 +1,4 @@
 import Image from 'next/image'
-
 import done from '@/assets/images/done.svg'
 
 const FormIsDone = () => {
@@ -7,7 +6,7 @@ const FormIsDone = () => {
     <div className="comments__from-done">
       <Image src={done} alt="done" />
       <h2 className="comments__title">
-        Спасибо! Форма была успешно отправлена.
+        Спасибо! Форма была успешно <br /> отправлена.
       </h2>
     </div>
   )

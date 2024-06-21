@@ -15,9 +15,7 @@ const Breaf: FC = () => {
             target="_blank"
             href="https://docs.google.com/forms/d/e/1FAIpQLSf3xe8VqNsz-aVW8k7e0JY1rUDJh--WSFQBb9oDB7g6dBiy-w/viewform?usp=sf_link"
             className="form__btn-orange breaf__btn"
-          >
-            ЗАПОЛНИТЬ БРИФ
-          </a>
+          >ЗАПОЛНИТЬ БРИФ</a>
         </div>
 
         <Image className="breaf__dots-right" src={dots} alt="dots" />

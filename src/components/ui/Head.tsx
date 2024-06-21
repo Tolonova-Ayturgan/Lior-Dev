@@ -6,12 +6,12 @@ const head = (
   subtitle: string,
   id: number,
 ) => {
+
   return (
     <div className={`head__boxStr${id}`}>
-      {/* <Image src={img} alt="head" className={`head__imgStr${id}`} /> */}
       <Image src={img} alt="head" className={`head__imgStr${id}`} />
       <h1 className={`head__titleStr${id}`}>
-        {title} <p className={`head__subtitle str${id}`}>{subtitle}</p>
+        {title} <p className={`head__subtitle_str${id}`}>{subtitle}</p>
       </h1>
     </div>
   )

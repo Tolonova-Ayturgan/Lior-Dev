@@ -1,17 +1,7 @@
-.partners {
-  &__title {
-    @include subtitle;
-    margin-bottom: 40px;
+.title{
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 36px;
     font-weight: 700;
     line-height: 45.25px;
     text-align: center;
-
-  }
-  &__item {
-    img {
-      border-radius: 10px;
-    }
-  }
 }

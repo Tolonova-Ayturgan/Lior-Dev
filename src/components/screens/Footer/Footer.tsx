@@ -6,6 +6,7 @@ import instagram from '../../../assets/icons/instagram.svg'
 import whatsapp from '../../../assets/icons/bi_whatsapp.svg'
 
 const Footer: FC = () => {
+  
   return (
     <footer className="footer">
       <div className="container">

@@ -50,6 +50,7 @@ const Portfolio = ({ className }: any) => {
       </a>
     ))
 
+    
   return (
     <section className="portfolio">
       <div className="container">

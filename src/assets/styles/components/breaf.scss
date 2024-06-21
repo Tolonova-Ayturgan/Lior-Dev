@@ -3,6 +3,12 @@
   &__title {
     @include title;
     margin-bottom: 80px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 46px;
+    font-weight: 700;
+    line-height: 57.82px;
+    text-align: center;
+
     @media screen and (max-width: 480px) {
       font-size: 30px;
       margin-bottom: 30px;
@@ -29,6 +35,11 @@
   &__btn {
     position: relative;
     transition: all 0.9s;
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 20px;
+
     &:hover {
       transition: all 0.9s;
       border: 1px solid #599952;

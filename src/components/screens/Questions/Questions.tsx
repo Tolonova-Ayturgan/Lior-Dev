@@ -31,7 +31,7 @@ const Questions: FC<Props> = ({ title }) => {
                   </h4>
                 </div>
 
-                <div>
+                <div className={styles.questions__subtitle_2}>
                   <a
                     className={styles.questions__tel}
                     href="tel: +996705121928"

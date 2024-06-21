@@ -10,18 +10,18 @@
     rgba(255, 255, 255, 0.738308) 39.94%,
     #ffffff00 75.3%
   );
+
   .head__titleStr1,
   .head__titleStr2 {
     position: absolute;
     top: 40%;
     left: 128px;
-    width: 500px;
+    width: 600px;
     font-size: 52.46px;
     font-weight: 700;
     line-height: 66.1px;
     letter-spacing: 0.06em;
     text-align: center;
-    color: $primary-color-3;
     .head__subtitle {
       color: #0099f6;
     }
@@ -56,6 +56,7 @@
     font-size: 40px !important;
     line-height: 40px !important;
     left: 100px !important;
+
   }
   .head__titleStr2 {
     font-size: 40px !important;
@@ -83,4 +84,8 @@
     font-weight: 700 !important;
     line-height: 22px !important;
   }
+}
+
+.highlight{
+  color: #7BD554;
 }

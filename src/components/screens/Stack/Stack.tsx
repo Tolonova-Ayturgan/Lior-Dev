@@ -1,7 +1,8 @@
 import type { FC } from 'react'
 import MarqueeList from '@/components/ui/Marquee/Marquee'
 import { fetchData } from '@/api/fetchData'
-import './Stack.scss'
+import styles from './Stack.module.scss'
+
 const Stack: FC = async () => {
   const stack: [] = await fetchData('stack/')
   const stackElem = stack.map((item: any) => (
@@ -13,7 +14,7 @@ const Stack: FC = async () => {
 
   return (
     <section className="stack">
-      <h2 className="stack__title">МЫ ИСПОЛЬЗУЕМ</h2>
+      <h2 className={styles.title}>МЫ ИСПОЛЬЗУЕМ</h2>
 
       <div className="stack__list">
         <MarqueeList direction="right" stackElem={stackElem} />

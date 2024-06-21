@@ -54,17 +54,19 @@ const Header: FC = () => {
   return (
     <header>
       <div className="container header">
+
         <div className="header__top">
           <a href="https://go.2gis.com/sbodo">
             <Image width={'10'} height={'15'} src={location} alt="location" />
-            Ибраимова 115/1 (Бизнес центр Асыл-Таш)
+            <p>Адрес компании здесь</p>
           </a>
           <a href="tel:+996708161619">
-            <Image width={'10'} height={'15'} src={call} alt="location" />
-            +996 708-16-16-19
+            <Image width={'12'} height={'17'} src={call} alt="location" />
+            +996 705 121 928
           </a>
         </div>
       </div>
+
       <div className="header__bottom">
         <div className="container header__inner">
           <Link href={'/'}>
@@ -75,16 +77,12 @@ const Header: FC = () => {
             className={
               !isMenuOpen ? 'header__burger-btn' : 'header__burger-btn-x'
             }
-            onClick={toggleMenu}
-          >
-            <span></span>
-            <span></span>
-            <span></span>
-          </button>
+            onClick={toggleMenu}>
+            </button>
 
           <nav className={`header__menu ${!isMenuOpen ? 'open' : ''}`}>
             <ul className="header__list">
-              {navElems}
+              {navElems}  
               {isHomePage && (
                 <li className={`header__item ${isActive ? 'active' : ''}`}>
                   <button
@@ -111,6 +109,7 @@ const Header: FC = () => {
               ОНЛАЙН-ЗАПРОС
             </button>
           </nav>
+          
         </div>
       </div>
     </header>

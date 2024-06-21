@@ -14,11 +14,12 @@
   &__title {
     font-size: 44px;
     font-weight: 700;
-    line-height: 55.44px;
-    letter-spacing: 0.06em;
+    line-height: 65.44px;
     max-width: 782px;
     margin-bottom: 40px;
     color: $secondary-color-1;
+    letter-spacing: 0.07em;
+
     background-color: transparent;
     @media screen and (max-width: 900px) {
       font-size: 38px;
@@ -85,14 +86,19 @@
   }
   &__wrapper {
     padding-top: 150px;
+    height: 525px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
     @media screen and (max-width: 768px) {
       padding-top: 80px;
     }
   }
   &__btn {
     position: relative;
-    font-family: 'Poppins';
-    font-weight: 500;
+    // font-family: 'Poppins';
+    font-weight: 600;
     font-size: 16px;
     line-height: 125%;
     text-transform: uppercase;
