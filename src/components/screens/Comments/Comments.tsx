@@ -6,6 +6,7 @@ import { ICommentsResponse } from '@/types/types'
 const Comments = async () => {
   const data: ICommentsResponse[] = await fetchData('review/')
   console.log('datvwem[v[mewo[a1', data)
+  
   return (
     <section className="comments">
       <h2 className="comments__title">ЧТО ГОВОРЯТ ПРО НАС</h2>

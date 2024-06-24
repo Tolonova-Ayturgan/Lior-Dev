@@ -17,7 +17,7 @@ const page = () => {
           className={`head__imgStr${1}`}
         />
         <h1 className={`head__titleStr${1}`}>
-          ЧТО МЫ,  <span className="highlight">МОЖЕМ ПРЕДЛОЖИТЬ</span> ?
+          ЧТО МЫ <span className="highlight">МОЖЕМ ПРЕДЛОЖИТЬ</span> ?
         </h1>
       </div>
       {/* {Head(head, 'ЧТО МЫ', 'МОЖЕМ ПРЕДЛОЖИТЬ ?', 1)} */}

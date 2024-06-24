@@ -12,14 +12,14 @@
     width: 80vw;
   }
   &__title {
+    font-family: 'Source Sans Pro', sans-serif;
     font-size: 44px;
     font-weight: 700;
     line-height: 65.44px;
-    max-width: 782px;
+    width: 1050px;
     margin-bottom: 40px;
     color: $secondary-color-1;
     letter-spacing: 0.07em;
-
     background-color: transparent;
     @media screen and (max-width: 900px) {
       font-size: 38px;
@@ -91,6 +91,7 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: flex-start;
+    width: 900px;
     @media screen and (max-width: 768px) {
       padding-top: 80px;
     }

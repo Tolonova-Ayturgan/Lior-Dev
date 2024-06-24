@@ -10,7 +10,7 @@ const Hero: FC = () => {
         <div className="container">
           <div className={styles.hero__wrapper}>
             <h1 className={styles.hero__title}>
-              СОЗДАНИЕ САЙТОВ РАЗРАБАТЫВЕМ ЯРКИЕ КРЕАТИВНЫЕ САЙТЫ “ПОД КЛЮЧ”
+              СОЗДАНИЕ САЙТОВ <br /> РАЗРАБАТЫВЕМ ЯРКИЕ <br />КРЕАТИВНЫЕ САЙТЫ “ПОД КЛЮЧ”
             </h1>
 
             <a className={styles.hero__btn} href="tel:+996705121928">
