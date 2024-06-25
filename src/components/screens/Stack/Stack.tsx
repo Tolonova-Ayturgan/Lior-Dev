@@ -4,7 +4,8 @@ import { fetchData } from '@/api/fetchData'
 import styles from './Stack.module.scss'
 
 const Stack: FC = async () => {
-  const stack: [] = await fetchData('stack/')
+  const stack = await fetchData('partner')
+  
   const stackElem = stack.map((item: any) => (
     <a key={item.id} className="partners__item" href="#">
       <img width={237} height={61} src={item.logo} alt={item.title} />
