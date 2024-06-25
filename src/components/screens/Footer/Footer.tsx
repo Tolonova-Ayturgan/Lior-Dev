@@ -1,9 +1,9 @@
 import Image from 'next/image'
 import type { FC } from 'react'
-import logo from '../../../assets/icons/logo.svg'
-import telegram from '../../../assets/icons/telegram.svg'
-import instagram from '../../../assets/icons/instagram.svg'
-import whatsapp from '../../../assets/icons/bi_whatsapp.svg'
+import logo from '@/assets/icons/logo.svg'
+import telegram from '@/assets/icons/telegram.svg'
+import instagram from '@/assets/icons/Instagram.svg'
+import whatsapp from '@/assets/icons/bi_whatsapp.svg'
 
 const Footer: FC = () => {
   
